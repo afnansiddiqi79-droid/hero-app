@@ -7,7 +7,7 @@ const Navber = () => {
      <li><Link href={"/"}>Home</Link></li>
       
         <li><Link href={"/apps"}>Apps</Link></li>
-        <li><Link href={"/"}>Installation</Link></li>
+        <li><Link href={"/install"}>Installation</Link></li>
     </>
     return (
         <div className='container mx-auto '>

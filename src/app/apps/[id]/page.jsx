@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Buttonin from "@/components/Button";
 
 const getApps = async () => {
   const res = await fetch("http://localhost:3000/data.json");
@@ -91,9 +92,7 @@ const Detailpage = async ({ params }) => {
 
             {/* Install Button */}
             <div className="shrink-0">
-              <button className="btn btn-primary w-full rounded-full px-7 sm:w-auto">
-                Install App
-              </button>
+             <Buttonin r={r}></Buttonin>
             </div>
 
           </div>
