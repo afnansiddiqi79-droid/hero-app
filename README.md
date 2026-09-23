@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Hero App
 
-## Getting Started
+A modern and responsive app discovery web application built with **Next.js**. Hero App allows users to explore apps, view app details, install apps, and manage their installed apps through a clean and responsive interface.
 
-First, run the development server:
+## 🌐 Live Demo
+
+🔗 [View Live Website](https://hero-app-bemp-2kn98pxl0-afnan-a324.vercel.app/)
+
+## 💻 GitHub Repository
+
+🔗 [View Source Code](https://github.com/afnansiddiqi79-droid/hero-app)
+
+---
+
+## ✨ Features
+
+* 🏠 Modern homepage with a hero section
+* 📱 Browse trending apps
+* 🔎 View app details
+* 📦 Install apps
+* 🗑️ Uninstall installed apps
+* 🚫 Prevent duplicate app installations
+* 🔔 Toast notifications for app actions
+* 📄 App data managed with JSON
+* 📱 Fully responsive design
+* 🧩 Reusable React components
+* ⚡ Built with Next.js App Router
+
+---
+
+## 🛠️ Technologies Used
+
+* **Next.js 16**
+* **React 19**
+* **Tailwind CSS 4**
+* **DaisyUI 5**
+* **React Toastify**
+* **JavaScript**
+* **JSON**
+* **Vercel**
+
+---
+
+## 🧠 Concepts Practiced
+
+This project was built to practice and understand several important React and Next.js concepts:
+
+* Next.js App Router
+* Server Components
+* Async Components
+* Data Fetching
+* React Context API
+* `useContext`
+* `useState`
+* Props and component reusability
+* Array methods such as `map`, `filter`, and `some`
+* Conditional rendering
+* Responsive design with Tailwind CSS
+* DaisyUI components
+* Toast notifications
+* Vercel deployment
+
+---
+
+## 📂 Project Structure
+
+```text
+hero-app/
+├── public/
+│   └── data.json
+│
+├── src/
+│   ├── app/
+│   │   ├── page.jsx
+│   │   ├── apps/
+│   │   ├── install/
+│   │   └── ...
+│   │
+│   ├── components/
+│   │   ├── homepage/
+│   │   └── ...
+│   │
+│   └── context/
+│       └── Appcontext.jsx
+│
+├── package.json
+├── postcss.config.mjs
+├── eslint.config.mjs
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/afnansiddiqi79-droid/hero-app.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd hero-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the application
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+Starts the Next.js development server.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Production Build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```
+
+Creates an optimized production build.
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+Starts the production server.
+
+### Lint
+
+```bash
+npm run lint
+```
+
+Runs ESLint to check the project code.
+
+---
+
+## 🌍 Deployment
+
+The project is deployed on **Vercel**.
+
+🔗 [Live Demo](https://hero-app-bemp-2kn98pxl0-afnan-a324.vercel.app/)
+
+---
+
+## 📌 Project Goal
+
+The main goal of this project was to build a practical Next.js application while strengthening the fundamentals of React and modern frontend development.
+
+Through this project, I practiced component-based development, state management with Context API, data fetching, responsive UI design, user interactions, and deployment with Vercel.
+
+---
+
+## 👨‍💻 Author
+
+### Afnan Siddiqi
+
+GitHub: [@afnansiddiqi79-droid](https://github.com/afnansiddiqi79-droid)
+
+---
+
+⭐ Thanks for checking out **Hero App**!
