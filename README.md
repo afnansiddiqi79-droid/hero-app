@@ -4,7 +4,7 @@ A modern and responsive app discovery web application built with **Next.js**. He
 
 ## 🌐 Live Demo
 
-🔗 [View Live Website](https://hero-app-bemp-2kn98pxl0-afnan-a324.vercel.app/)
+🔗 [View Live Website](https://hero-app-steel.vercel.app/)
 
 ## 💻 GitHub Repository
 
@@ -167,7 +167,7 @@ Runs ESLint to check the project code.
 
 The project is deployed on **Vercel**.
 
-🔗 [Live Demo](https://hero-app-bemp-2kn98pxl0-afnan-a324.vercel.app/)
+🔗 [Live Demo](https://hero-app-steel.vercel.app/)
 
 ---
 
