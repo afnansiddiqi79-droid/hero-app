@@ -6,7 +6,9 @@ import Appcard from "@/components/homepage/Appcard";
 
 const getApps = async () => {
   try {
-    const res = await fetch("http://localhost:3000/data.json");
+   const res = await fetch(
+  "https://hero-app-steel.vercel.app/data.json"
+);
 
     if (!res.ok) {
       throw new Error("Failed to fetch apps");
